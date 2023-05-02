@@ -1,0 +1,39 @@
+@media (min-width: 320px) {
+    .card_container {
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .phrase_container {
+        /* position: relative; */
+        /* top: 20px; */
+        margin: 25px auto;
+        display: grid;
+        place-items: center;
+        padding: 0px 20px;
+        max-width: 425px;
+        height: 245px;
+        min-width: 320px;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+        border-radius: 39px;
+        text-align: center;
+    }
+
+    .author_container {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin: 0 auto;
+        height: min-content;
+    }
+
+    .bounded_author {
+        display: grid;
+        place-items: center;
+        height: 282px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+}

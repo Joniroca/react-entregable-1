@@ -1,0 +1,19 @@
+.App {
+  background-position: center;
+  background-repeat: repeat;
+  display: grid;
+  place-items: center;
+
+}
+
+@media (min-width: 320px) {
+  .title {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 360px) {
+  #root {
+    width: 100%;
+  }
+}
